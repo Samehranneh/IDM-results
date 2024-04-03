@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Steller landing page.">
+    <meta name="author" content="Devcrud">
+    <title>IDM HomeWork Results</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Steller main styles -->
+	<link rel="stylesheet" href="assets/css/steller.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/imgs/logo.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Results</a>
+                    </li>
+                </ul>
+            </div>
+        </div>          
+    </nav>
+    <!-- End of page navibation -->
+
+    <!-- Page Header -->
+    <header class="header" id="home">
+        <div class="container">
+            <div class="infos">
+                <h6 class="subtitle">Hello to the</h6>
+                <h6 class="title">IDM HomeWork Results</h6>
+                <p>Here you can see the Results and you can go to the jupiter notebook to see the code</p>
+
+                <div class="buttons pt-3">
+                    <button class="btn btn-dark rounded" onclick="openCV()">IDM Jupiter notebook</button>
+
+                    <script>
+                    function openCV() {
+                      var link = "https://colab.research.google.com/drive/1S9EiWhpOG03Yjv0ZTEjq-70NLGLUQHVQ?usp=sharing";
+                      window.open(link, "_blank");
+                    }
+                    </script>
+                </div>      
+
+            </div>              
+            <div class="img-holder">
+                <img src="assets/imgs/man.svg" alt="">
+            </div>      
+        </div>  
+
+        </div>
+    </header>
+    <!-- End of Page Header -->
+    
+    <!-- About section -->
+    <section id="about" class="section mt-3">
+        <div class="container mt-5">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3">
+                    <p>
+
+                    </p>
+                </div>
+        <h6 class="title" style="text-align: center;">(Logistic Regression-Decision Tree-Naive Bayes)</h6>
+    <div class="pl-md-4 col-md-9">      
+        <div class="container">
+            <table align="center">
+
+                <tbody>
+                  <tr>
+                    <td>    </td>
+                    <td><b> <div class="widget-item"><h5>Logistic Regression</h5>
+                    </div> </b></td>   
+                    <td><b> <div class="widget-item"><h5>Decision Tree</h5>
+                    </div> </b></td> 
+                    <td><b> <div class="widget-item"><h5>Naive Bayes</h5>
+                    </div> </b></td> 
+                  </tr>
+                  <tr>
+                    <td><b><div class="widget-item">
+                        <p>Accuracy</p>
+                        </div></b></td>
+                    <td>0.2543</td>
+                    <td>0.6377</td>
+                    <td>0.0609</td>
+                  </tr>
+                  <tr>
+                    <td><b><div class="widget-item">
+                        <p>Precision</p>
+                        </div></b></td>
+                    <td>0.1192</td>
+                    <td>0.6378</td>
+                    <td>0.1801</td>
+                  </tr>
+                  <tr>
+                    <td><b><div class="widget-item">
+                        <p>Recall</p>
+                        </div></b></td>
+                    <td>0.2543</td>                    
+                    <td>0.6377</td>
+                    <td>0.0609</td>
+                  </tr>
+                  <tr>
+                    <td><b><div class="widget-item">
+                        <p>F1-Score</p>
+                        </div></b></td>
+                    <td>0.1519</td>                    
+                    <td>0.6376</td>
+                    <td>0.0189</td>
+                  </tr>
+                </tbody>
+              </table>
+ 
+        </div>
+    </div>
+    </section>
+    <!-- End of page footer -->
+	
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <!-- bootstrap 3 affix -->
+	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- steller js -->
+    <script src="assets/js/steller.js"></script>
+
+</body>
+</html>
